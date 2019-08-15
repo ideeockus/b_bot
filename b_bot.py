@@ -23,7 +23,7 @@ vk_proxy_dict = ""
 while('vk'):
     if input('Хотите использовать прокси? [y/n]')=="y":
         print("Потребуются https proxy")
-        https_proxy = input("Введите прокси в формате ip:host: ")
+        https_proxy = input("Введите прокси в формате ip:port: ")
         try:
             vk_proxy_dict = { 
                 "http": https_proxy,
